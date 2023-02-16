@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.37a6a223.css",
+    "main.js": "/static/js/main.5dc8701a.js",
+    "static/media/bg.jpg": "/static/media/bg.a7e465e2af841995a54c.jpg",
+    "static/media/skill1.png": "/static/media/skill1.64ee712275de61893017.png",
+    "static/media/skill3.png": "/static/media/skill3.7ba3d99b25ac58b70355.png",
+    "static/media/skill4.png": "/static/media/skill4.7418c87cf6d4b61ef015.png",
+    "static/media/skill2.png": "/static/media/skill2.ed45a27da513c8a154a8.png",
+    "static/media/skill8.png": "/static/media/skill8.5fc1bec92716f1dca36a.png",
+    "static/media/skill6.png": "/static/media/skill6.f27938136d7448f39cbb.png",
+    "static/media/skill5.png": "/static/media/skill5.a55338e96f197cfddaca.png",
+    "static/media/skill7.png": "/static/media/skill7.bff5b3c62c008bedb234.png",
+    "static/media/skill9.png": "/static/media/skill9.d1211955f44c34ea93ad.png",
+    "static/media/project4.png": "/static/media/project4.ce91bd7919578f818095.png",
+    "static/media/project1.png": "/static/media/project1.5fe5ecd9719f90cc83dd.png",
+    "index.html": "/index.html",
+    "main.37a6a223.css.map": "/static/css/main.37a6a223.css.map",
+    "main.5dc8701a.js.map": "/static/js/main.5dc8701a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37a6a223.css",
+    "static/js/main.5dc8701a.js"
+  ]
+}
