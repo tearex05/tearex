@@ -1,6 +1,7 @@
 {
   "name": "projectx",
   "version": "0.1.0",
+  "homepage": "http://tearex05.github.io/tearex",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
