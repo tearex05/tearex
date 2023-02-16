@@ -3,6 +3,7 @@ import Nav from './components/Nav'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {SiGmail} from 'react-icons/si'
+import {AiFillLinkedin} from 'react-icons/ai'
 import {FaYahoo, FaTelegram} from 'react-icons/fa'
 import Bg from './assets/bg.jpg'
 import Project1 from './assets/project1.png'
@@ -68,9 +69,9 @@ function App() {
     <div id="contact" className="w-screen flex flex-col items-center place-items-center mt-96 mb-40">
       <h1 className={`text-6xl sm:text-7xl lg:text-9xl text-white mb-20`}>Contact Me</h1>
       <div className={`flex flex-col sm:grid-cols-3 mt-10 text-7xl sm:text-9xl gap-20 place-items-center text-white`}>
-        <a target="_blank" href="mailto: tearex0505@gmail.com" className="flex items-center justify-around">
-          <SiGmail color="white" />
-          <p className={`text-2xl hidden lg:block lg:ml-10 text-6xl font-bold p-2 text-black st`}>tearex0505@gmail.com</p>
+        <a target="_blank" href="https://www.linkedin.com/in/tea-rex-ab6688254/" className="flex items-center justify-around">
+          <AiFillLinkedin color="white" />
+          <p className={`text-2xl hidden lg:block lg:ml-10 text-6xl font-bold p-2 text-black st`}>Tea Rex</p>
         </a>
         <a target="_blank" href="mailto: tearex05@yahoo.com" className="flex items-center justify-around">
           <FaYahoo color="white" />
