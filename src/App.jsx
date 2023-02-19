@@ -28,28 +28,27 @@ function App() {
   }, []);
   return (
     <>
-    <Nav />
     <div id="home" style={{backgroundImage: `url(${Bg})`}} className="img w-screen h-screen flex items-end justify-start">
-      <h1 className={`text-3xl font-light m-4 sm:text-4xl md:text-5xl text-white`}>You do not find the happy life<br /><span className="text-7xl sm:text-8xl md:text-9xl font-bold">You make it</span></h1>
+      <h1 className={`text-2xl font-light m-4 sm:text-4xl md:text-5xl text-white`}>You do not find the happy life<br /><span className="text-6xl sm:text-8xl md:text-9xl font-bold">You make it</span></h1>
     </div>
-    <div className={`bg-black w-screen min-h-screen pl-5 pr-10 mt-96 text-8xl mx-2 -rotate-3 italic`}>
-      <h1 className={`st text-black`}>To Have A <span className={`text-white text-9xl`}>Great Business</span> Or To Introduce YourSelf In A Modern Way You Need A <span className={`text-white text-9xl`}>Beautiful Website</span>. What Place Better Than <span className={`text-white text-9xl`}>Here</span>?</h1>
+    <div className={`bg-black w-screen min-h-screen pl-10 pr-10 mt-96 text-6xl mx-2 -rotate-3 italic leading-20`}>
+      <h1 className={`st text-black`}>To Have A <span className={`text-white text-7xl`}>Great Business</span> Or To Introduce YourSelf In A Modern Way You Need A <span className={`text-white text-7xl`}>Beautiful Website</span>. What Place Better Than <span className={`text-white text-7xl`}>Here</span>?</h1>
     </div>
-    <div id="skills" className={`w-screen min-h-screen flex flex-col items-center justify-center text-center text-white mt-80 text-6xl`}>
-      <h1>Here Are My Skills & More...</h1>
+    <div id="skills" className={`w-screen min-h-screen flex flex-col items-center justify-center text-center text-white mt-80 text-5xl`}>
+      <h1>Here Are My Skills</h1>
       <div className={`mt-20 w-screen min-h-screen text-white`}>
-        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill1})`}}>React & Redux</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill2})`}}>MongoDb</h1>
-        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill3})`}}>NodeJs</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill4})`}}>Express</h1>
-        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill5})`}}>Js</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill6})`}}>Python</h1>
-        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill7})`}}>Tailwind</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill8})`}}>Git & Github</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-5xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill9})`}}>Html & Css</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill1})`}}>React & Redux</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill2})`}}>MongoDb</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill3})`}}>NodeJs</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill4})`}}>Express</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill5})`}}>Js</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill6})`}}>Python</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill7})`}}>Tailwind</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill8})`}}>Git & Github</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="w-screen flex items-center justify-center text-4xl font-bold text-center px-5 py-10 cursor-pointer mb-40" style={{backgroundImage: `url(${skill9})`}}>Html & Css</h1>
       </div>
     </div>
-    <div id="projects" className={`w-screen min-h-screen text-white mb-20 mt-80 text-5xl font-normal flex flex-col items-center justify-center text-center pl-10 pr-12 mb-10`}>
+    <div id="projects" className={`w-screen min-h-screen text-white mb-20 mt-80 text-6xl font-normal flex flex-col items-center justify-center text-center pl-10 pr-12 mb-10`}>
       <h1 className="mb-20">You Want <span className="font-black">Beautiful Websites</span> Like These?</h1>
       <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 place-items-center">
         <a data-aos="zoom-out-up" target="_blank" href="https://tearex05.github.io/rexshop-frontend/" className="w-10/12 hover:rotate-12 transition-all duration-500">
@@ -66,8 +65,8 @@ function App() {
         </a>
       </div>
     </div>
-    <div id="contact" className="w-screen flex flex-col items-center place-items-center mt-96 mb-40">
-      <h1 className={`text-6xl sm:text-7xl lg:text-9xl text-white mb-20`}>Contact Me</h1>
+    <div id="contact" className="w-screen flex flex-col items-center place-items-center mt-80 mb-40 pt-20">
+      <h1 className={`text-5xl sm:text-6xl lg:text-9xl text-white mb-20`}>Contact Me</h1>
       <div className={`flex flex-col sm:grid-cols-3 mt-10 text-7xl sm:text-9xl gap-20 place-items-center text-white`}>
         <a target="_blank" href="https://www.linkedin.com/in/tea-rex-ab6688254/" className="flex items-center justify-around">
           <AiFillLinkedin color="white" />
@@ -83,7 +82,7 @@ function App() {
         </a>
       </div>
     </div>
-    <footer className={`w-screen mb-2 mt-20 text-white flex items-center justify-center font-bold`}>
+    <footer className={`w-screen mb-3 mt-20 text-white flex items-center justify-center font-bold text-2xl`}>
       Created By Tearex
     </footer>
     </>
