@@ -66,19 +66,19 @@ function App() {
       </div>
     </div>
     <div id="contact" className="w-screen flex flex-col items-center place-items-center mt-80 mb-40 pt-20">
-      <h1 className={`text-5xl sm:text-6xl lg:text-9xl text-white mb-20`}>Contact Me</h1>
-      <div className={`flex flex-col sm:grid-cols-3 mt-10 text-7xl sm:text-9xl gap-20 place-items-center text-white`}>
+      <h1 className={`text-5xl sm:text-6xl lg:text-7xl text-white mb-20`}>Contact Me</h1>
+      <div className={`flex flex-col sm:grid-cols-3 mt-10 text-6xl sm:text-9xl gap-20 place-items-center text-white`}>
         <a target="_blank" href="https://www.linkedin.com/in/tea-rex-ab6688254/" className="flex items-center justify-around">
           <AiFillLinkedin color="white" />
-          <p className={`text-2xl hidden lg:block lg:ml-10 text-6xl font-bold p-2 text-black st`}>Tea Rex</p>
+          <p className={`text-2xl hidden lg:block lg:ml-10 text-5xl font-bold p-2 text-black st`}>Tea Rex</p>
         </a>
         <a target="_blank" href="mailto: tearex05@yahoo.com" className="flex items-center justify-around">
           <FaYahoo color="white" />
-          <p className={`text-2xl hidden lg:block lg:ml-10 text-6xl font-bold p-2 text-black st`}>tearex05@yahoo.com</p>
+          <p className={`text-2xl hidden lg:block lg:ml-10 text-5xl font-bold p-2 text-black st`}>tearex05@yahoo.com</p>
         </a>
         <a target="_blank" href="https://t.me/tearex05" className="flex items-center justify-around">
           <FaTelegram color="white" />
-          <p className={`text-2xl hidden lg:block lg:ml-10 text-6xl font-bold p-2 text-black st`}>@tearex05</p>
+          <p className={`text-2xl hidden lg:block lg:ml-10 text-5xl font-bold p-2 text-black st`}>@tearex05</p>
         </a>
       </div>
     </div>
