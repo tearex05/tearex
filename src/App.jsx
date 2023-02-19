@@ -28,7 +28,7 @@ function App() {
   }, []);
   return (
     <>
-    <div id="home" style={{backgroundImage: `url(${Bg})`}} className="img w-screen h-screen flex items-end justify-start">
+    <div id="home" style={{backgroundImage: `url(${Bg})`}} className="img w-screen h-screen flex items-center justify-center text-center">
       <h1 className={`text-2xl font-light m-4 sm:text-4xl md:text-5xl text-white`}>You do not find the happy life<br /><span className="text-6xl sm:text-8xl md:text-9xl font-bold">You make it</span></h1>
     </div>
     <div className={`bg-black w-screen min-h-screen pl-10 pr-10 mt-96 text-6xl mx-2 -rotate-3 italic leading-20`}>
