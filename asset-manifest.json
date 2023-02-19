@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tearex/static/css/main.37a6a223.css",
-    "main.js": "/tearex/static/js/main.33c983ba.js",
+    "main.css": "/tearex/static/css/main.75e0c25a.css",
+    "main.js": "/tearex/static/js/main.9ca49468.js",
     "static/media/bg.jpg": "/tearex/static/media/bg.a7e465e2af841995a54c.jpg",
     "static/media/skill1.png": "/tearex/static/media/skill1.64ee712275de61893017.png",
     "static/media/skill3.png": "/tearex/static/media/skill3.7ba3d99b25ac58b70355.png",
@@ -15,11 +15,11 @@
     "static/media/project4.png": "/tearex/static/media/project4.ce91bd7919578f818095.png",
     "static/media/project1.png": "/tearex/static/media/project1.5fe5ecd9719f90cc83dd.png",
     "index.html": "/tearex/index.html",
-    "main.37a6a223.css.map": "/tearex/static/css/main.37a6a223.css.map",
-    "main.33c983ba.js.map": "/tearex/static/js/main.33c983ba.js.map"
+    "main.75e0c25a.css.map": "/tearex/static/css/main.75e0c25a.css.map",
+    "main.9ca49468.js.map": "/tearex/static/js/main.9ca49468.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a6a223.css",
-    "static/js/main.33c983ba.js"
+    "static/css/main.75e0c25a.css",
+    "static/js/main.9ca49468.js"
   ]
 }
