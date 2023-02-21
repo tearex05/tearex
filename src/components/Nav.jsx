@@ -32,7 +32,7 @@ function Nav() {
 			<div className={`bg-white h-x1 w-8 transition-all duration-300 ${style.margin} ${style.rot}`}></div>
 			<div className={`bg-white h-x1 w-8 transition-all duration-300 ${style.move2} ${style.rot2}`}></div>
 		</span>
-		<div className={`fixed w-screen h-screen bg-black flex-col items-center sm:items-start justify-around px-8 text-6xl sm:text-8xl md:hidden flex ${style.move} transition-all duration-500 z-20`}>
+		<div className={`fixed w-screen h-screen bg-black flex-col items-center sm:items-start justify-around px-8 text-6xl sm:text-8xl md:hidden flex ${style.move} text-center transition-all duration-500 z-20`}>
 			<a href="#skills" className={`text-black h-full flex items-center st hover:text-white transition-all duration-500`}>Skills</a>
 			<a href="#projects" className={`text-black st hover:text-white flex items-center transition-all h-full duration-500`}>Projects</a>
 			<a href="#contact" className={`text-black st hover:text-white flex items-center transition-all h-full  duration-500`}>Contact Me</a>
