@@ -133,12 +133,12 @@ function App() {
     <div className="my-60 w-screen text-center items-center justify-center flex flex-col md:flex-row md:border-l-8 border-white">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl text-white mb-10 pb-2 md:mb-0 md:w-2/3 flex items-center justify-center">My Social Media</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:w-1/3 flex items-center justify-center place-items-center">
-        <span className="text-white text-8xl mx-6 mb-8 md:mb-0">
+        <a target="_blank" href="https://www.linkedin.com/in/reza-yekta-ab6688254/" className="text-white text-8xl mx-6 mb-8 md:mb-0">
           <AiFillLinkedin />
-        </span>
-        <span className="text-white text-8xl mx-6">
+        </a>
+        <a target="_blank" href="https://t.me/tearex05" className="text-white text-8xl mx-6">
           <FaTelegram />
-        </span>
+        </a>
       </div>
     </div>
     <footer className={`w-screen mb-2 mt-20 text-white flex items-center justify-center font-bold text-xl`}>
