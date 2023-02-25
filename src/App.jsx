@@ -1,11 +1,9 @@
 import {useEffect, useState, useRef} from 'react'
 import emailjs from '@emailjs/browser';
-import Nav from './components/Nav'
 import AOS from "aos";
 import "aos/dist/aos.css";
-import {SiGmail} from 'react-icons/si'
 import {AiFillLinkedin} from 'react-icons/ai'
-import {FaYahoo, FaTelegram} from 'react-icons/fa'
+import {FaTelegram} from 'react-icons/fa'
 import Bg from './assets/bg.jpg'
 import Project1 from './assets/project1.jpg'
 import Project2 from './assets/project2.jpg'
@@ -21,7 +19,7 @@ import skill7 from './assets/skill7.png'
 import skill8 from './assets/skill8.png'
 import skill9 from './assets/skill9.png'
 import Masonry from "react-masonry-css"
-import {motion} from 'framer-motion'
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 
 function App() {
@@ -72,15 +70,15 @@ function App() {
     <div id="skills" className={`w-screen min-h-screen flex flex-col items-center justify-center text-center text-white mt-10 text-5xl font-bold pb-4`}>
       <h1 className="pb-2">My Skills</h1>
       <div className="mt-10 w-screen min-h-screen text-white flex flex-col items-center">
-        <h1 data-aos="fade-right" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center text-5xl sm:text-6xl md:text-7xl text-center font-normal px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill1})`}}>React & Redux</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill2})`}}>MongoDb</h1>
-        <h1 data-aos="fade-right" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill3})`}}>NodeJs</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill4})`}}>Express</h1>
-        <h1 data-aos="fade-right" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill5})`}}>Javascript</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill6})`}}>Python</h1>
-        <h1 data-aos="fade-right" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill7})`}}>Tailwind</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill8})`}}>Git & Github</h1>
-        <h1 data-aos="fade-left" loading="lazy" className="w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill9})`}}>Html & Css</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="img2 img2 w-9/12 rounded-3xl flex items-center justify-center text-5xl sm:text-6xl md:text-7xl text-center font-normal px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill1})`}}>React & Redux</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill2})`}}>MongoDb</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill3})`}}>NodeJs</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill4})`}}>Express</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill5})`}}>Javascript</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill6})`}}>Python</h1>
+        <h1 data-aos="fade-right" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill7})`}}>Tailwind</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill8})`}}>Git & Github</h1>
+        <h1 data-aos="fade-left" loading="lazy" className="img2 w-9/12 rounded-3xl flex items-center justify-center font-normal text-5xl sm:text-6xl md:text-7xl text-center px-5 py-16 cursor-pointer mb-20" style={{backgroundImage: `url(${skill9})`}}>Html & Css</h1>
       </div>
     </div>
     <div id="projects" className={`w-screen min-h-screen text-white mb-20 mt-60 text-4xl sm:text-5xl font-normal flex flex-col items-center justify-center text-center pl-10 pr-12 mb-10`}>
@@ -90,32 +88,32 @@ function App() {
           className="my-masonry-grid"
           columnClassName="my-masonry-grid_column"
         >
-        <div className="rounded-xl flex items-center justify-center relative mb-8" data-aos="zoom-out-up">
-          <img loading="lazy" src={Project3} alt="" className="" />
+        <div className="rounded-xl flex items-center justify-center relative mb-8">
+          <LazyLoadImage src={Project3} alt="" className="" />
           <div className="absolute z-2 bottom-0 left-0 text-white text-2xl sm:text-5xl lg:text-6xl m-3 hover:m-10 flex flex-col items-center justify-around">
           <p className="mb-1 pb-1 sm:pb-3">Shopping Website</p>
-          <a href="https://tearex05.github.io/rexshop-frontend/" className="bg-black text-white text-lg sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank">Go to website</a>
+          <a href="https://tearex05.github.io/rexshop-frontend/" className="bg-black text-white text-lg sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank" rel="noreferrer">Go to website</a>
           </div>
         </div>
-        <div className="rounded-xl flex items-center justify-center relative mb-8" data-aos="zoom-out-down">
-          <img loading="lazy" src={Project1} alt="" className="" />
+        <div className="rounded-xl flex items-center justify-center relative mb-8">
+          <LazyLoadImage src={Project1} alt="" className="" />
           <div className="absolute z-2 bottom-0 left-0 text-white text-2xl sm:text-5xl lg:text-6xl m-3 hover:m-10 flex flex-col items-center justify-around">
           <p className="mb-1 pb-1">Chairs Website</p>
-          <a href="https://tearex05.github.io/rexchairs" className="bg-black text-white text-lg sm:text-2xl p-3 w-fit rounded justify-center flex items-center"  target="_blank">Go to website</a>
+          <a href="https://tearex05.github.io/rexchairs" className="bg-black text-white text-lg sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank" rel="noreferrer">Go to website</a>
           </div>
         </div>
-        <div className="rounded-xl flex items-center justify-center relative mb-8" data-aos="zoom-out-up">
-          <img loading="lazy" src={Project4} alt="" className="" />
+        <div className="rounded-xl flex items-center justify-center relative mb-8">
+          <LazyLoadImage src={Project4} alt="" className="" />
           <div className="absolute z-2 bottom-0 left-0 text-white text-2xl sm:text-5xl lg:text-6xl m-3 hover:m-10 flex flex-col items-center justify-around">
           <p className="mb-1 pb-1">Todo List Website</p>
-          <a href="https://tearex05.github.io/todo-frontend/" className="bg-black text-white text-xl sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank">Go to website</a>
+          <a href="https://tearex05.github.io/todo-frontend/" className="bg-black text-white text-xl sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank" rel="noreferrer">Go to website</a>
           </div>
         </div>
-        <div className="rounded-xl flex items-center justify-center relative mb-8" data-aos="zoom-out-down">
-          <img loading="lazy" src={Project2} alt="" className="" />
+        <div className="rounded-xl flex items-center justify-center relative mb-8">
+          <LazyLoadImage src={Project2} alt="" className="" />
           <div className="absolute z-2 bottom-0 left-0 text-white text-2xl sm:text-5xl lg:text-6xl m-3 hover:m-10 flex flex-col items-center justify-around">
           <p className="mb-1 pb-1">Shoes Website</p>
-          <a href="https://tearex05.github.io/rexshoes" className="bg-black text-white text-xl sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank">Go to website</a>
+          <a href="https://tearex05.github.io/rexshoes" className="bg-black text-white text-xl sm:text-2xl p-3 w-fit rounded justify-center flex items-center" target="_blank" rel="noreferrer">Go to website</a>
           </div>
         </div>
       </Masonry>
@@ -133,10 +131,10 @@ function App() {
     <div className="my-60 w-screen text-center items-center justify-center flex flex-col md:flex-row md:border-l-8 border-white">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl text-white mb-10 pb-2 md:mb-0 md:w-2/3 flex items-center justify-center">My Social Media</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:w-1/3 flex items-center justify-center place-items-center">
-        <a target="_blank" href="https://www.linkedin.com/in/reza-yekta-ab6688254/" className="text-white text-8xl mx-6 mb-8 md:mb-0">
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/reza-yekta-ab6688254/" className="text-white text-8xl mx-6 mb-8 md:mb-0">
           <AiFillLinkedin />
         </a>
-        <a target="_blank" href="https://t.me/tearex05" className="text-white text-8xl mx-6">
+        <a target="_blank" rel="noreferrer" href="https://t.me/tearex05" className="text-white text-8xl mx-6">
           <FaTelegram />
         </a>
       </div>
