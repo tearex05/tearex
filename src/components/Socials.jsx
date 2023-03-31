@@ -1,7 +1,6 @@
 import {useEffect} from "react"
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Bg from "../assets/bg5.jpg";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaTelegram } from "react-icons/fa";
 import {SiGmail} from "react-icons/si"
