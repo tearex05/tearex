@@ -28,12 +28,6 @@ body{
 	width: 94vw;
 }
 
-.shadow-x{
-	box-shadow: 0px 44px 100px -70px rgba(255,255,255,0.23);
--webkit-box-shadow: 0px 44px 100px -70px rgba(255,255,255,0.23);
--moz-box-shadow: 0px 44px 100px -70px rgba(255,255,255,0.23);
-}
-
 .tran{
 	transition: all 0.3s ease;
 }
@@ -43,7 +37,7 @@ body{
 }
 
 .detail{
-	transform: translateY(10px);
+	transform: translateY(6px);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -52,21 +46,23 @@ body{
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.text{
-	opacity: 0;
-}
-
 .logo:hover .text{
 	opacity: 1;
 }
 
+@media (max-width: 699px){
+.text{
+	display: none;
+}
+}
+
 @media (max-width: 400px){
 .w-x{
-	width: 14em;
+	width: 17em;
 }
 
 .h-x{
-	height: 14em;
+	height: 17em;
 }
 .detail{
 	letter-spacing: 20px;
@@ -77,11 +73,11 @@ body{
 
 @media (min-width: 400px){
 .w-x{
-	width: 16em;
+	width: 20em;
 }
 
 .h-x{
-	height: 16em;
+	height: 20em;
 }
 .detail{
 	letter-spacing: 25px;
@@ -93,11 +89,11 @@ body{
 
 @media (min-width: 500px){
 .w-x{
-	width: 20em;
+	width: 25em;
 }
 
 .h-x{
-	height: 20em;
+	height: 25em;
 }
 .detail{
 	letter-spacing: 30px;
@@ -107,12 +103,17 @@ body{
 }
 
 @media (min-width: 700px){
+.text{
+	opacity: 0;
+	display: inline-block;
+}
+
 .w-x{
-	width: 30em;
+	width: 35em;
 }
 
 .h-x{
-	height: 30em;
+	height: 35em;
 }
 .detail{
 	letter-spacing: 40px;

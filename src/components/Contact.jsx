@@ -87,7 +87,7 @@ function Contact() {
 						value={form.message}
 						onChange={changeHandler}
 						name="message"
-						className="placeholder:text-gray-200 bg-transparent backdrop-blur border-white border-2 rounded p-2 text-white outline-none h-40 w-2/3"
+						className="placeholder:text-gray-200 bg-transparent backdrop-blur border-white border-2 rounded p-2 text-white outline-none h-11 sm:h-32 md:h-40 w-2/3"
 						placeholder="Enter Your Message"
 					></textarea>
 					<p className="text-white my-2">{form.error}</p>

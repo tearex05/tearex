@@ -86,47 +86,47 @@ function Skills() {
         style={{ backgroundImage: `url(${Bg})` }}
       >
         <div
-          className={`text-white text-4xl font-black bg-black1 rounded-2xl ${style.wh1} h-full text-center flex items-center justify-center relative ${style.margin} cursor-pointer origin-left relative`}
+          className={`text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black bg-black2 rounded-2xl ${style.wh1} h-full text-center flex items-center justify-center relative ${style.margin} cursor-pointer origin-left relative`}
           onClick={backendHandler}
         >
           <span className={`${style.span1}`}>BACKEND</span>
-            <div className={`h-full flex flex-col items-center justify-around absolute px-5 py-2 ${style.visible1} text-3xl`}>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill2})`}}>
+            <div className={`h-full flex flex-col items-center justify-around absolute px-5 py-2 ${style.visible1} text-xl sm:text-2xl md:text-3xl lg:text-4xl`}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8 flex items-center justify-center text-center rounded" style={{backgroundImage: `url(${skill2})`}}>
               MONGODB
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill3})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8 flex items-center justify-center text-center rounded" style={{backgroundImage: `url(${skill3})`}}>
               NODEJS
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill4})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8 flex items-center justify-center text-center rounded" style={{backgroundImage: `url(${skill4})`}}>
               EXPRESSJS
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill6})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8 flex items-center justify-center text-center rounded" style={{backgroundImage: `url(${skill6})`}}>
               PYTHON
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill10})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8 flex items-center justify-center text-center rounded" style={{backgroundImage: `url(${skill10})`}}>
               MYSQL
             </div>
           </div>
         </div>
         <div
-          className={`text-white text-4xl font-black bg-black1 rounded-2xl text-center flex items-center justify-center relative ${style.wh2} h-full cursor-pointer origin-right`}
+          className={`text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black bg-black2 rounded-2xl text-center flex items-center justify-center relative ${style.wh2} h-full cursor-pointer origin-right`}
           onClick={frontendHandler}
         >
           <span className={`${style.span2}`}>FRONTEND</span>
-          <div className={`h-full flex flex-col items-center justify-around absolute px-5 py-2 ${style.visible2} text-3xl`}>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill1})`}}>
+          <div className={`h-full flex flex-col items-center justify-around absolute px-5 py-2 ${style.visible2} text-xl sm:text-2xl md:text-3xl lg:text-4xl`}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8  rounded" style={{backgroundImage: `url(${skill1})`}}>
               REACT & REDUX
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill5})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8  rounded" style={{backgroundImage: `url(${skill5})`}}>
               JAVASCRIPT
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill7})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8  rounded" style={{backgroundImage: `url(${skill7})`}}>
               TAILWIND
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill8})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8  rounded" style={{backgroundImage: `url(${skill8})`}}>
               GIT & GITHUB
             </div>
-            <div className="bg w-full py-4 rounded" style={{backgroundImage: `url(${skill9})`}}>
+            <div className="bg w-full my-1 py-2 sm:py-5 md:py-7 lg:py-8  rounded" style={{backgroundImage: `url(${skill9})`}}>
               HTML & CSS
             </div>
           </div>

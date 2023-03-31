@@ -24,17 +24,16 @@ function Socials() {
 					target="_blank"
 					rel="noreferrer"
 					href="https://www.linkedin.com/in/reza-yekta-ab6688254/"
-					className="text-black text-7xl flex flex-col items-center justify-center text-center logo hover:-translate-y-1"
+					className="text-black text-7xl md:text-8xl flex flex-col items-center justify-center text-center logo hover:-translate-y-1"
 				>
 					<AiFillLinkedin />
-					<p className="text-black text-xl font-black text">reza-yekta-ab6688254</p>
-					
+					<p className="text-black text-xl font-black text">reza yekta</p>
 				</a>
 				<a
 					target="_blank"
 					rel="noreferrer"
 					href="https://t.me/tearex05"
-					className="text-black text-7xl flex flex-col items-center justify-center text-center logo hover:-translate-y-1"
+					className="text-black text-7xl md:text-8xl flex flex-col items-center justify-center text-center logo hover:-translate-y-1"
 				>
 					<FaTelegram />
 					<p className="text-black text-xl font-black text">tearex05</p>
@@ -43,7 +42,7 @@ function Socials() {
 					target="_blank"
 					rel="noreferrer"
 					href="https://t.me/tearex05"
-					className="text-black text-7xl hover:justify-around flex items-center relative flex flex-col items-center justify-center text-center logo hover:-translate-y-1"
+					className="text-black text-7xl md:text-8xl hover:justify-around flex items-center relative flex flex-col items-center justify-center text-center logo hover:-translate-y-1"
 				>
 					<SiGmail />
 					<p className="text-black text-xl font-black text">tearex0505@gmail.com</p>
