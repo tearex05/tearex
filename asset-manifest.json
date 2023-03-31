@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tearex/static/css/main.e8652b57.css",
+    "main.css": "/tearex/static/css/main.f07d2d9c.css",
     "main.js": "/tearex/static/js/main.87497e70.js",
     "static/media/bg3.jpg": "/tearex/static/media/bg3.8a2d062d39c77de25f0a.jpg",
     "static/media/bg1.jpg": "/tearex/static/media/bg1.caf98f47117fb6d2c2db.jpg",
@@ -21,11 +21,11 @@
     "static/media/skill5.png": "/tearex/static/media/skill5.4d04f9abdf74d3354869.png",
     "static/media/todo.jpg": "/tearex/static/media/todo.a9057d8bf3dcc6bc7139.jpg",
     "index.html": "/tearex/index.html",
-    "main.e8652b57.css.map": "/tearex/static/css/main.e8652b57.css.map",
+    "main.f07d2d9c.css.map": "/tearex/static/css/main.f07d2d9c.css.map",
     "main.87497e70.js.map": "/tearex/static/js/main.87497e70.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8652b57.css",
+    "static/css/main.f07d2d9c.css",
     "static/js/main.87497e70.js"
   ]
 }
