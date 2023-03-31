@@ -86,7 +86,7 @@ function Skills() {
         style={{ backgroundImage: `url(${Bg})` }}
       >
         <div
-          className={`text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black bg-black2 rounded-2xl ${style.wh1} h-full text-center flex items-center justify-center relative ${style.margin} cursor-pointer origin-left relative`}
+          className={`text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black backdrop-blur-lg rounded-2xl ${style.wh1} h-full text-center flex items-center justify-center relative ${style.margin} cursor-pointer origin-left relative`}
           onClick={backendHandler}
         >
           <span className={`${style.span1}`}>BACKEND</span>
@@ -109,7 +109,7 @@ function Skills() {
           </div>
         </div>
         <div
-          className={`text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black bg-black2 rounded-2xl text-center flex items-center justify-center relative ${style.wh2} h-full cursor-pointer origin-right`}
+          className={`text-white text-lg sm:text-2xl md:text-3xl lg:text-4xl font-black backdrop-blur-lg rounded-2xl text-center flex items-center justify-center relative ${style.wh2} h-full cursor-pointer origin-right`}
           onClick={frontendHandler}
         >
           <span className={`${style.span2}`}>FRONTEND</span>
