@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import Bg from "../assets/bg2.jpg";
-import { motion } from "framer-motion";
 import Shop from "../assets/shop.jpg";
 import Todo from "../assets/todo.jpg";
 import Chair from "../assets/chair.jpg";
