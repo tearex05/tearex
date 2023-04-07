@@ -4,6 +4,8 @@ import Shop from "../assets/shop.jpg";
 import Todo from "../assets/todo.jpg";
 import Chair from "../assets/chair.jpg";
 import Shoe from "../assets/shoe.jpg";
+import Calculator from "../assets/calculator.jpg";
+import Realestate from "../assets/realestate.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -39,6 +41,20 @@ function Projects() {
 			info: "Made with React.Js and Tailwind",
 			url: "https://tearex05.github.io/rexshoes",
 			image: Shoe,
+		},
+		{
+			id: 5,
+			name: "Real Estate",
+			info: "Made with React.Js and Tailwind",
+			url: "https://tearex05.github.io/realestate",
+			image: Realestate,
+		},
+		{
+			id: 6,
+			name: "Calculator",
+			info: "Made with React.Js and pure css",
+			url: "https://tearex05.github.io/calculator",
+			image: Calculator,
 		},
 	];
 	const [selectedId, setSelectedId] = useState(null);
