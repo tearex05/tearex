@@ -6,6 +6,7 @@ import Chair from "../assets/chair.jpg";
 import Shoe from "../assets/shoe.jpg";
 import Calculator from "../assets/calculator.jpg";
 import Realestate from "../assets/realestate.jpg";
+import Tower from "../assets/tower.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -16,10 +17,10 @@ function Projects() {
 	let data = [
 		{
 			id: 1,
-			name: "RexShop",
-			info: "Made with React.Js, Express.Js, Node.Js, MySQL, Tailwind and Redux",
-			url: "https://tearex05.github.io/rexshop/",
-			image: Shop,
+			name: "TowerPlus",
+			info: "Made with React.Js and tailwind",
+			url: "https://tearex05.github.io/towerplus",
+			image: Tower,
 		},
 		{
 			id: 2,
@@ -56,6 +57,13 @@ function Projects() {
 			url: "https://tearex05.github.io/calculator",
 			image: Calculator,
 		},
+		{
+			id: 7,
+			name: "RexShop",
+			info: "Made with React.Js, Express.Js, Node.Js, MySQL, Tailwind and Redux",
+			url: "https://tearex05.github.io/rexshop/",
+			image: Shop,
+		},
 	];
 	const [selectedId, setSelectedId] = useState(null);
 	return (
@@ -67,7 +75,7 @@ function Projects() {
 				<p className="text-white font-black w-fit detail">PROJECTS</p>
 				<div
 					
-					className={`bg w-x h-x rounded-xl ${selectedId ? ("flex") : ("grid")} sm:gap-12 shadow-x place-items-center gap-8 ${selectedId ? ("p-1") : ("p-8 sm:p-12")} grid-cols-2 relative`}
+					className={`bg w-x h-x rounded-xl ${selectedId ? ("flex") : ("grid")} sm:gap-12 shadow-x place-items-center gap-8 ${selectedId ? ("p-1") : ("p-8 sm:p-12")} grid-cols-3 relative`}
 					style={{ backgroundImage: `url(${Bg})` }}
 				>
 				{selectedId ? (
@@ -89,7 +97,7 @@ function Projects() {
 						) : (
 						data.map(item => (
 							<div key={item.id} 
-							data-aos="fade-up"className="w-full h-full backdrop-blur-2xl hover:scale-105 tran" onClick={() => setSelectedId(item.id)}>
+							data-aos="fade-up"className={`w-full h-full backdrop-blur-2xl hover:scale-105 tran ${item.id === 1 && ("row-span-3")}`} onClick={() => setSelectedId(item.id)}>
 							<div
 							style={{ backgroundImage: `url(${item.image})` }}
 							className={`bg rounded w-full h-full cursor-pointer`}
