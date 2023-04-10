@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/tearex/static/css/main.a1a01944.css",
-    "main.js": "/tearex/static/js/main.b8ae8d4e.js",
+    "main.css": "/tearex/static/css/main.2b336e03.css",
+    "main.js": "/tearex/static/js/main.98d9385c.js",
     "static/media/bg3.jpg": "/tearex/static/media/bg3.8a2d062d39c77de25f0a.jpg",
     "static/media/realestate.jpg": "/tearex/static/media/realestate.964f9b6c969e447bd55a.jpg",
+    "static/media/keyboard.jpg": "/tearex/static/media/keyboard.9f95ee8b1bc322d236f3.jpg",
     "static/media/tower.jpg": "/tearex/static/media/tower.491ac338c727fb6e51d3.jpg",
     "static/media/bg1.jpg": "/tearex/static/media/bg1.caf98f47117fb6d2c2db.jpg",
     "static/media/bg2.jpg": "/tearex/static/media/bg2.7bfa9a555af22e5e9ba0.jpg",
@@ -24,11 +25,11 @@
     "static/media/skill5.png": "/tearex/static/media/skill5.4d04f9abdf74d3354869.png",
     "static/media/todo.jpg": "/tearex/static/media/todo.a9057d8bf3dcc6bc7139.jpg",
     "index.html": "/tearex/index.html",
-    "main.a1a01944.css.map": "/tearex/static/css/main.a1a01944.css.map",
-    "main.b8ae8d4e.js.map": "/tearex/static/js/main.b8ae8d4e.js.map"
+    "main.2b336e03.css.map": "/tearex/static/css/main.2b336e03.css.map",
+    "main.98d9385c.js.map": "/tearex/static/js/main.98d9385c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1a01944.css",
-    "static/js/main.b8ae8d4e.js"
+    "static/css/main.2b336e03.css",
+    "static/js/main.98d9385c.js"
   ]
 }
